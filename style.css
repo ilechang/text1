@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height:100vh;
+    width: 100%;
+    background: #1a261e;
+    padding: 50px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.text p {
+    margin: 10px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 60px;
+    color: #2d3a31;
+
+}
+
+.text p:hover {
+    color: blue;
+    background-image: linear-gradient(to right, #2d3a31, #7a764a, #63a26c, #2d3a31); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
